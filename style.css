@@ -16,15 +16,17 @@ h1 {
 
 .orange-color {
     color: rgb(255, 153, 0);
+    margin-left: 5px;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding:2%;
+    padding: 2%;
 }
 
 .half-width img {
@@ -43,8 +45,30 @@ section {
 }
 
 .top-banner {
-    background-image: url(my-new-portfolio/Image/top-banner.png);
+    background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
 
 
+}
+
+.second-banner {
+    background-image: url(Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-flexible {
+    display: flex;
+    width: 100%;
+    
+
+}
+.font-color{
+    color: rgb(233, 154, 51);
+}
+.experience-item{
+    box-shadow: 10px 10px 10px gainsboro;
+    width:40%;
+    margin: 20px;
+    padding: 20px;
 }
